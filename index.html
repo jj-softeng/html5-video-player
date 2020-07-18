@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Html5 Video Player</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <div class="player">
+          <video
+            src="https://www.youtube.com/watch?v=6v2L2UGZJAM"
+            id="video"
+          ></video>
+
+          <div class="player__controls">
+            <div>
+              <img src="./icons/play.png" alt="play/pause" />
+            </div>
+            <div>
+              <img src="./icons/volume.png" alt="volume" />
+            </div>
+            <div class="volume">
+              <div>
+                <span class="volume-filled"></span>
+              </div>
+            </div>
+            <div class="progress">
+              <div>
+                <span class="progress-filled"></span>
+              </div>
+            </div>
+            <div>
+              <img src="./icons/backwords.png" alt="bring back" />
+            </div>
+            <div>
+              <img src="./icons/forwards.png" alt="bring forward" />
+            </div>
+            <div>
+              <img src="./icons/picture.png" alt="picture in picture" />
+            </div>
+            <div>
+              <img src="./icons/full.png" alt="full screen" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  -->
+    <script src="./player.js"></script>
+  </body>
+</html>

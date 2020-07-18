@@ -1,0 +1,86 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.player {
+  position: relative;
+  overflow: hidden;
+}
+video {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.player__controls {
+  width: 100%;
+  background: #38c6bd;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 38px;
+  transform: translateY(100%);
+  transition: all 0.3s;
+}
+.player:hover .player__controls {
+  transform: translateY(0);
+}
+.player__controls > div > img {
+  width: 23px;
+  height: 23px;
+}
+.player__controls > div:not(:nth-child(2)) > img {
+  cursor: pointer;
+}
+.player__controls > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.volume {
+  flex-basis: 140%;
+}
+.volume > div {
+  flex: 1;
+  background: #fff;
+  height: 6px;
+  border-radius: 50px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.volume > div > .volume-filled {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 70%;
+  background: #dffb37;
+}
+
+.progress {
+  flex-basis: 900%;
+}
+.progress > div {
+  margin-left: 10px;
+  flex: 1;
+  background: #e5e5e5;
+  height: 15px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.progress > div > .progress-filled {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  background: #dffb37;
+}
