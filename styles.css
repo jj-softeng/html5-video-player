@@ -10,6 +10,11 @@
   width: 700px;
   height: 100%;
 }
+@media (max-width: 900px) {
+  .player {
+    width: 95vw;
+  }
+}
 video {
   display: block;
   width: 100%;
@@ -35,7 +40,7 @@ video {
   width: 23px;
   height: 23px;
 }
-.player__controls > div:not(:nth-child(2)) > img {
+.player__controls > div > img {
   cursor: pointer;
 }
 .player__controls > div {
@@ -62,7 +67,7 @@ video {
   top: 0;
   left: 0;
   height: 100%;
-  width: 70%;
+  width: 0%;
   background: #dffb37;
 }
 
@@ -83,6 +88,6 @@ video {
   top: 0;
   left: 0;
   height: 100%;
-  width: 50%;
+  width: 0%;
   background: #dffb37;
 }
