@@ -7,7 +7,16 @@
 <img src="./screenshot.png" alt="html5 player" />
 <br />
 
-This HTML5 video player is build with **HTML5**,**CSS3** & vanilla **JAVASCRIPT**.
+This HTML5 video player is build with **HTML5**,**CSS3** & vanilla **JAVASCRIPT**.tested on Chrome (both Android & Desktop), Firefox (Desktop).
+
+##### Some Handy Shortcuts includes
+
+- F (to Enter fullscreen mode)
+- Esc (for leaving fullscreen mode)
+- Space (for toggling play/pause)
+- M (for toggling video sound)
+
+Firefox browsers by default show picture-in-picture option on the right side of each video so custom picture-in-picture button is removed for firefox and also for android.
 
 ## License
 

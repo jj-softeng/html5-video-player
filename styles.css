@@ -91,3 +91,9 @@ video {
   width: 0%;
   background: #dffb37;
 }
+
+.progress > div:focus,
+.progress > div > .progress-filled:focus {
+  -moz-user-select: none;
+  outline: none;
+}
